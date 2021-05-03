@@ -1,0 +1,33 @@
+Active-HDL 11.1.262.7351 2021-05-03 14:38:35
+
+Elaboration top modules:
+Architecture                  structure(Traffic_lights_controller)
+
+
+----------------------------------------------------------------------------------------------------------
+Entity                    | Architecture | Library | Info | Compiler Version        | Compilation Options
+----------------------------------------------------------------------------------------------------------
+Traffic_lights_controller | structure    | TLC     |      | 11.1.262.7351 (Windows) | -O3
+counter_box               | behavioral   | TLC     |      | 11.1.262.7351 (Windows) | -O3
+p_flag_sel                | behavioral   | TLC     |      | 11.1.262.7351 (Windows) | -O3
+light_sel_noped           | behavioral   | TLC     |      | 11.1.262.7351 (Windows) | -O3
+light_sel_ped             | behavioral   | TLC     |      | 11.1.262.7351 (Windows) | -O3
+light_sel                 | structure    | TLC     |      | 11.1.262.7351 (Windows) | -O3
+----------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------
+VHDL Package                             | Library | Info | Compiler Version        | Compilation Options
+----------------------------------------------------------------------------------------------------------
+standard                                 | std     |      |                         | <unavailable>
+TEXTIO                                   | std     |      |                         | <unavailable>
+std_logic_1164                           | ieee    |      |                         | <unavailable>
+NUMERIC_STD                              | ieee    |      |                         | <unavailable>
+----------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------
+Library                                  | Comment
+----------------------------------------------------------------------------------------------------------
+ieee                                     | Standard IEEE packages library
+std                                      | Standard VHDL library
+TLC                                      | None
+----------------------------------------------------------------------------------------------------------

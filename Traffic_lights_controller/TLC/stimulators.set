@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<document type="stimulators" version="1">
+		<set name="ASDB Stimulators" active="1">
+			<stimulator>
+				<signal_path value="/Traffic_lights_controller/p_ctrl"/>
+				<rawdescription value="FRM:FRM:Override:0 0 sec, 1 300 sec, 0 310 sec, 1 315 sec, 0 320sec, 1 680 sec, 0 685 sec, 1 700 sec, 0 703sec:Formula:1:"/>
+			</stimulator>
+		</set>
+	</document>
+</XML>

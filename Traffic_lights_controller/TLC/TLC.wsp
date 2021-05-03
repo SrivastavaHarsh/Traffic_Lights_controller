@@ -1,0 +1,14 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+TLC=1
+Built-in symbols=0
+[COMPILESTATUS|.\src\TLC.vhd]
+FileTimeLow=30883835
+Status=Compiled
+[COMPILESTATUS|.\src\tlc_waveform.asdb]
+FileTimeLow=30883836
+Status=Modified
+[COMPILESTATUS|.\src\tlc_waveform.awc]
+FileTimeLow=30883836
+Status=Modified
+[Gui config]
+RunFor=600 s

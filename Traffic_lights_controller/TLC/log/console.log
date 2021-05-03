@@ -1,0 +1,97 @@
+# Design: Design TLC already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work TLC -2002  $dsn/src/TLC.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/Traffic_lights_controller/TLC/src/TLC.vhd
+# Compile Entity "counter_box"
+# Compile Architecture "behavioral" of Entity "counter_box"
+# Compile Entity "p_flag_sel"
+# Compile Architecture "behavioral" of Entity "p_flag_sel"
+# Compile Entity "light_sel_noped"
+# Compile Architecture "behavioral" of Entity "light_sel_noped"
+# Compile Entity "light_sel_ped"
+# Compile Architecture "behavioral" of Entity "light_sel_ped"
+# Compile Entity "light_sel"
+# Compile Architecture "structure" of Entity "light_sel"
+# Compile Entity "Traffic_lights_controller"
+# Compile Architecture "structure" of Entity "Traffic_lights_controller"
+# Top-level unit(s) detected:
+# Entity => Traffic_lights_controller
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Traffic_lights_controller Traffic_lights_controller structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7222 kB (elbread=1280 elab2=5804 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Traffic_lights_controller\TLC\src\wave.asdb
+#  02:33 PM, 03 May 2021
+#  Simulation has been initialized
+# add wave -noreg {/Traffic_lights_controller/p_ctrl}
+# 1 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Traffic_lights_controller/TLC/src/wave.asdb'.
+# add wave -noreg {/Traffic_lights_controller/p_flag}
+# 1 signal(s) traced.
+# add wave -noreg {/Traffic_lights_controller/H}
+# 1 signal(s) traced.
+# add wave -noreg {/Traffic_lights_controller/S}
+# 1 signal(s) traced.
+# add wave -noreg {/Traffic_lights_controller/P}
+# 1 signal(s) traced.
+# add wave -noreg {/Traffic_lights_controller/cnp}
+# 1 signal(s) traced.
+# add wave -noreg {/Traffic_lights_controller/cp}
+# 1 signal(s) traced.
+run 600
+# KERNEL: stopped at time: 600 ps
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7222 kB (elbread=1280 elab2=5804 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Traffic_lights_controller\TLC\src\wave.asdb
+#  02:38 PM, 03 May 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Traffic_lights_controller/TLC/src/wave.asdb'.
+run 600 s
+# KERNEL: stopped at time: 10 min
+run 600 s
+# KERNEL: stopped at time: 20 min
+run 600 s
+# KERNEL: stopped at time: 30 min
+# Waveform file 'c:/My_Designs/Traffic_lights_controller/TLC/src/tlc_waveform.awc' connected to 'c:/My_Designs/Traffic_lights_controller/TLC/src/tlc_waveform.asdb'.
+# Adding file c:\My_Designs\Traffic_lights_controller\TLC\src\tlc_waveform.asdb ... Done
+# Adding file c:\My_Designs\Traffic_lights_controller\TLC\src\tlc_waveform.awc ... Done

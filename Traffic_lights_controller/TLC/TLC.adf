@@ -1,0 +1,32 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=TLC
+[Library]
+TLC=.\TLC\TLC.lib
+[$LibMap$]
+TLC=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/TLC.vhd=-1
+/tlc_waveform.asdb=-1
+/tlc_waveform.awc=-1
+[Files.Data]
+.\src\TLC.vhd=VHDL Source Code
+.\src\tlc_waveform.asdb=Accelerated Waveform File
+.\src\tlc_waveform.awc=Accelerated Waveform Configuration
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=traffic_lights_controller|structure|0 
+ShowHide=ShowTopLevel
+Selected=

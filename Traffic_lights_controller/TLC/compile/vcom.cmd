@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/Traffic_lights_controller/TLC/compile/TLC.erf -d c:/My_Designs/Traffic_lights_controller/TLC/compile -s c:/My_Designs/Traffic_lights_controller/library.cfg -j c:/My_Designs/Traffic_lights_controller/TLC/projlib.cfg -work TLC -reorder -O3 -e 100 -work TLC -2002 c:/My_Designs/Traffic_lights_controller/TLC/src/TLC.vhd 

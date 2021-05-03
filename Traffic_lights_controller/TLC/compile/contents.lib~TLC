@@ -1,0 +1,13 @@
+1
+~E 1 "../src/TLC.vhd" 6 counter_box
+~A 1 "../src/TLC.vhd" 12 behavioral
+~E 1 "../src/TLC.vhd" 129 light_sel
+~A 1 "../src/TLC.vhd" 137 structure
+~E 1 "../src/TLC.vhd" 67 light_sel_noped
+~A 1 "../src/TLC.vhd" 74 behavioral
+~E 1 "../src/TLC.vhd" 100 light_sel_ped
+~A 1 "../src/TLC.vhd" 107 behavioral
+~E 1 "../src/TLC.vhd" 43 p_flag_sel
+~A 1 "../src/TLC.vhd" 49 behavioral
+~E 1 "../src/TLC.vhd" 160 Traffic_lights_controller
+~A 1 "../src/TLC.vhd" 165 structure

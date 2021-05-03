@@ -1,0 +1,49 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="1458d0cb07db94bd8f6035db3b0e0200">tlc_waveform.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+        <signal>/Traffic_lights_controller/p_ctrl</signal>
+        <signal>/Traffic_lights_controller/p_flag</signal>
+        <signal>/Traffic_lights_controller/H</signal>
+        <signal>/Traffic_lights_controller/S</signal>
+        <signal>/Traffic_lights_controller/P</signal>
+        <signal>/Traffic_lights_controller/cnp</signal>
+        <signal>/Traffic_lights_controller/cp</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="1841207065713867" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="1800000000000000" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>
